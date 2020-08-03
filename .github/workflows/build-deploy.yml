@@ -29,8 +29,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      AWS_REGION: eu-west-1
-      EKS_CLUSTER_NAME: fantastic-party-9999999999
+      AWS_REGION: us-east-1
+      EKS_CLUSTER_NAME: training-eks-cfyPys0Y
 
     steps:
     - name: Checkout
