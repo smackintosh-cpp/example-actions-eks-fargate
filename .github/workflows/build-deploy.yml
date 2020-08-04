@@ -29,8 +29,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      AWS_REGION: us-east-2
-      EKS_CLUSTER_NAME: training-eks-cfyPys0Y
+      AWS_REGION: us-west-1
+      EKS_CLUSTER_NAME: eks-demo-prod
 
     steps:
     - name: Checkout
